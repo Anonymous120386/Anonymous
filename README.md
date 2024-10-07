@@ -1,5 +1,82 @@
 # Anonymous
-This repository contains all the research output about vulnerabilities in IP Camera (D3D, Ezviz IP Camera).
+This repository contains all the research output about vulnerabilities in Smart Plug (IoT Haat), IP Camera (D3D, Ezviz IP Camera).
+
+# IoT Haat Smart Plug IH-IN-16A-S
+
+## Affected Product
+
+ IH-IN-16A-S - Application Software Version: 5.16.1
+
+## Affected Vendor
+
+ IoT Haat Smart Plug IH-IN-16A-S. 
+
+## CVE Number
+
+[CVE-2024-46040] (https://cve.mitre.org/cgi-bin/cvename.cgi?name=2024-46040)
+
+## Summary
+
+IoT Haat Smart Plug IH-IN-16A-S IH-IN-16A-S v5.16.1 suffers from Insufficient Session Expiration. The lack of validation of the authentication token at the IoT Haat during the Access Point Pairing mode leads the attacker to replay the Wi-Fi packets and forcefully turn off the access point after the authentication token has expired
+
+## Tested Versions
+
+IH-IN-16A-S - Application Software Version: 5.16.1
+
+## Product URLs
+
+[Website] (https://www.iothaat.com/)
+
+## CVSSv3 Score
+
+TBA
+
+## CWE
+
+TBA
+
+## Details
+
+To exploit the vulnerability, an attacker replays the Wi-Fi packets captured during the provisioning phase of the IoT Haat in the Access Point pairing mode.
+
+# IoT Haat Smart Plug IH-IN-16A-S
+
+## Affected Product
+
+ IH-IN-16A-S - Application Software Version: 5.16.1
+
+## Affected Vendor
+
+ IoT Haat Smart Plug IH-IN-16A-S. 
+
+## CVE Number
+
+[CVE-2024-46041] (https://cve.mitre.org/cgi-bin/cvename.cgi?name=2024-46041)
+
+## Summary
+
+IoT Haat Smart Plug IH-IN-16A-S v5.16.1 is vulnerable to Authentication Bypass by Capture-replay.
+
+## Tested Versions
+
+IH-IN-16A-S - Application Software Version: 5.16.1
+
+## Product URLs
+
+[Website] (https://www.iothaat.com/)
+
+## CVSSv3 Score
+
+TBA
+
+## CWE
+
+TBA
+
+## Details
+
+To exploit this vulnerability, an attacker in the provisioning phase of IoT Haat, performs an authentication-token-based replay attack by replacing a legitimate authentication token with the attacker's token.
+
 
 # Ezviz IP Camera : Sneak IP camera Live Video Stream
 
